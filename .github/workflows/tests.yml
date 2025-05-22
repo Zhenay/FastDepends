@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - run-tests
   pull_request:
     types: [opened, synchronize]
 
